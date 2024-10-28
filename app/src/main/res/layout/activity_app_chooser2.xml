@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAC982"
+    tools:context=".AppChooser2">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:radius="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:elevation="4dp"
+        app:cardCornerRadius="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="11dp"
+            android:layout_marginLeft="5dp"
+            android:text="Quotes to be shared:"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            />
+    </androidx.cardview.widget.CardView>
+
+    <RadioGroup
+        android:id="@+id/RG1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/rb1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:alpha="0.7"
+            android:layout_marginTop="150dp"
+            android:textSize="20sp"
+            android:background="@color/white"
+            android:text="Quote 1: Self-care is how you take your power back." />
+        <RadioButton
+            android:id="@+id/rb2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="14dp"
+            android:alpha="0.7"
+            android:textSize="20sp"
+            android:background="@color/white"
+            android:text="Quote 2: Sometimes, when things are falling apart, they may actually be falling into place." />
+
+        <RadioButton
+            android:id="@+id/rb3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:layout_marginTop="14dp"
+            android:alpha="0.7"
+            android:background="@color/white"
+            android:text="Quote 3: Success is falling nine times and getting up ten." />
+
+        <RadioButton
+            android:id="@+id/rb4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:alpha="0.7"
+            android:textSize="20sp"
+            android:background="@color/white"
+            android:text="Quote 4: Life has no limitations, except the ones you make." />
+        <RadioButton
+            android:id="@+id/rb5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:alpha="0.7"
+            android:textSize="20sp"
+            android:background="@color/white"
+            android:text="Quote 5: It is not the strength of the body that counts, but the strength of the spirit." />
+
+        <RadioButton
+            android:id="@+id/rb6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:alpha="0.7"
+            android:textSize="20sp"
+            android:background="@color/white"
+            android:text="Quote 6: When you believe in a thing, believe in it all the way, implicitly and unquestionable." />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:textSize="20sp"
+            android:backgroundTint="#FF5722"
+            android:text="Share" />
+
+
+    </RadioGroup>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#79E8F6"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/input1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#B9F7FF"
+        android:hint="Enter first number"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:padding="40dp"
+        android:textColorHint="@color/black"
+        android:textSize="25dp"
+        />
+
+    <EditText
+        android:id="@+id/input2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter second number"
+        android:textColorHint="@color/black"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:padding="40dp"
+        android:textSize="25dp"
+        android:background="#B9F7FF"
+        />
+
+    <TextView
+        android:id="@+id/resultView"
+        android:layout_width="match_parent"
+        android:layout_height="106dp"
+        android:fontFamily=""
+        android:hint="Result will be displayed here....."
+        android:textColorHint="@color/black"
+        android:visibility="visible"
+        android:textSize="25dp"
+        android:background="#B9F7FF"
+        />
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#BFAAE6"
+        android:text="Addition"
+        android:textSize="25dp"
+        />
+
+    <Button
+        android:id="@+id/subtractButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#BFAAE6"
+        android:text="Subtraction"
+        android:textSize="25dp"
+        />
+
+    <Button
+        android:id="@+id/multiplyButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#BFAAE6"
+        android:text="Multiplication"
+        android:textSize="25dp"
+        />
+
+    <Button
+        android:id="@+id/divideButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#BFAAE6"
+        android:text="Division"
+        android:textSize="25dp"
+        />
+
+</LinearLayout>
