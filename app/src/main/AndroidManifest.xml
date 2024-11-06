@@ -19,6 +19,18 @@
         android:theme="@style/Theme.Calculator"
         tools:targetApi="31">
         <activity
+            android:name=".AlertDialog.AlertDialog2"
+            android:exported="true" />
+        <activity
+            android:name=".AlertDialog.BasicAlertDialog"
+            android:exported="true" />
+        <activity
+            android:name=".AlertDialog.RatingPage"
+            android:exported="true" />
+        <activity
+            android:name=".PracticeActivity1"
+            android:exported="true" />
+        <activity
             android:name=".PermissionToCapture"
             android:exported="true" />
         <activity
